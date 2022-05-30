@@ -4,6 +4,6 @@ spring:
       enabled: false
   datasource:
   - type: "ddddd"
-    url: "jdbc:sqlserver://localhost:1433;database=sis"
+    url: "jdbc:sqlserverdddd://localhost:1433;database=sis"
     username: "sa"
     password: "trrr"
