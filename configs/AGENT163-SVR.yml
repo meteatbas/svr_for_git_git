@@ -1,7 +1,7 @@
 maxRestCallDurationInMinutes:
   configValueType: "LONG"
   configValueCount: "SINGLE"
-  valueAsJson: ""
+  valueAsJson: "ddd"
   encrypted: false
 voiceAdminBaseUri:
   configValueType: "STRING"
