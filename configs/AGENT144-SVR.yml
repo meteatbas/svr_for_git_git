@@ -1,9 +1,0 @@
-spring:
-- devtools:
-    restart:
-      enabled: false
-  datasource:
-  - type: "ddddd"
-    url: "jdbc:sqlserverdddd://localhost:1433;database=sis"
-    username: "sa"
-    password: "trrr"
