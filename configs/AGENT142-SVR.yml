@@ -3,7 +3,7 @@ spring:
     restart:
       enabled: false
   datasource:
-  - type: "ddd"
+  - type: "ddddd"
     url: "jdbc:sqlserver://localhost:1433;database=sis-voice"
     username: "sa"
     password: "trrr"
