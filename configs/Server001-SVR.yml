@@ -13,6 +13,7 @@ archiveLocation: "D:\\SistasVoiceData\\Archive"
 archivePassword: "asdf<asdf"
 archiveType: "local"
 cacheClearPeriodInMinutes: 1
+callListenPort: 28008
 clusteredInstanceCount: 1
 compressorName: "speexenc.exe"
 compressorPath: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\SistasVoiceServer\\\
