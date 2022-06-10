@@ -2,13 +2,13 @@ callListenHost:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Call Listen Host"
-  description: "CallListenHost, VoiceServer CallListen interface Listen IP, Capturer\
-    \ will send CallStarted/CallEnded message to CallListen Host:port"
+  description: "CallListenHost, VoiceServer Listen IP, Capturer will send CallStarted/CallEnded\
+    \ message to CallListen Host:port"
   sectionName: "CallListening"
   encrypted: false
-  rule: "${callListenHost} matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'"
+  rule: null
   restartRequired: null
-  defaultValue: "127.0.0.1"
+  defaultValue: null
 callListenPort:
   configValueCount: "SINGLE"
   configValueType: "LONG"
@@ -23,13 +23,12 @@ callListenPort:
 callListeningGatewayList:
   configValueCount: "LIST"
   configValueType: "STRING"
-  displayName: "Call Listening Gateway List"
+  displayName: "Call Listen Port"
   description: "callListeningGatewayList skip CTI Lookup and Extension Lookup for\
     \ IP List"
   sectionName: "CallListening"
   encrypted: false
-  rule: "${callListeningGatewayList} matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\\
-    .(?!$)|$)){4}$'"
+  rule: null
   restartRequired: null
   defaultValue: null
 callListeningNoCtiPhoneList:
@@ -173,7 +172,7 @@ isCallListeningEnabled:
   encrypted: false
   rule: null
   restartRequired: null
-  defaultValue: false
+  defaultValue: null
 isMessageEndLineDelimeted:
   configValueCount: "SINGLE"
   configValueType: "BOOLEAN"
