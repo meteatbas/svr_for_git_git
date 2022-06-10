@@ -102,7 +102,7 @@ instanceId:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Instance Id"
-  description: "The name of the instance. Should be unique per installation"
+  description: "The name of the instance. Should be unique perd installation"
   sectionName: "General"
   encrypted: false
   rule: "${instanceId} != null and ${instanceId}.bytes.length<255"
