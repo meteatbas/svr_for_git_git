@@ -11,7 +11,7 @@ alcatelTelephonyServerPrimaryHost: "192.168.2.180"
 alcatelTelephonyServerStandbyHost: "192.168.2.180"
 archiveLocation: "D:\\SistasVoiceData\\Archived"
 archivePassword: "asdf<asdf"
-archiveType: "local"
+archiveType: "localdd"
 cacheClearPeriodInMinutes: 1
 clusteredInstanceCount: 1
 compressorName: "speexenc.exe"
