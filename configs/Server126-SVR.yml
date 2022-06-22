@@ -14,7 +14,7 @@ archivePassword: "asdf<asdf"
 archiveType: "localdd"
 cacheClearPeriodInMinutes: 1
 clusteredInstanceCount: 1
-compressorName: "speexenc.exe"
+compressorName: "speexenc.exeee"
 compressorPath: "D:\\github\\SistasYazilimGrubu\\SistasVoiceSolution\\SistasVoiceServer\\\
   bin\\x64\\Release\\distribution\\compressor\\2016_11_11_11_11_11"
 configurationPublishingPeriodInSeconds: 60
