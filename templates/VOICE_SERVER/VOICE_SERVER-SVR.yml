@@ -5,7 +5,7 @@ OAuth2ClientId:
   description: "OAuth2ClientId"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "configuration-server"
 alcatelAgentActivityMonitorReportIntervalInMinutes:
@@ -15,7 +15,7 @@ alcatelAgentActivityMonitorReportIntervalInMinutes:
   description: "Not used"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 30
 alcatelAgentCallHistoryBufferSize:
@@ -25,7 +25,7 @@ alcatelAgentCallHistoryBufferSize:
   description: "AgentContext Log, Call History size in seconds, Not Logged"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60
 alcatelAgentCallHistoryWindowSizeInSeconds:
@@ -35,7 +35,7 @@ alcatelAgentCallHistoryWindowSizeInSeconds:
   description: "AgentContext Log, Call History size in seconds, Not Logged"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3600
 alcatelAgentConversationHistoryBufferSize:
@@ -45,7 +45,7 @@ alcatelAgentConversationHistoryBufferSize:
   description: "Logs conversation history in log file, Reactive Buffer Size"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60
 alcatelAgentConversationHistoryWindowSizeInSeconds:
@@ -55,7 +55,7 @@ alcatelAgentConversationHistoryWindowSizeInSeconds:
   description: "Logs conversation history in log file, Reactive WindowSizeInSeconds"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3600
 alcatelBipToneGenerationPresenceTimer:
@@ -65,7 +65,7 @@ alcatelBipToneGenerationPresenceTimer:
   description: "Alcatel-Lucent Bip Tone Generation Presence Timer"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 50
 alcatelBipToneGenerationSilenceTimer:
@@ -75,7 +75,7 @@ alcatelBipToneGenerationSilenceTimer:
   description: "Alcatel-Lucent Bip Tone Generation Silence Timer"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 0
 alcatelBipToneGenerationTonality:
@@ -85,7 +85,7 @@ alcatelBipToneGenerationTonality:
   description: "Alcatel-Lucent Bip Tone Generation Tonality"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 1
 alcatelCallConversationLoggerMaxBufferSize:
@@ -96,7 +96,7 @@ alcatelCallConversationLoggerMaxBufferSize:
     \ Size"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 5
 alcatelCallConversationLoggerTarget:
@@ -107,7 +107,7 @@ alcatelCallConversationLoggerTarget:
     \ TargetTypeFile(NonImplemented)"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "TargetTypeDB"
 alcatelCallConversationLoggerWindowSizeInMillis:
@@ -117,7 +117,7 @@ alcatelCallConversationLoggerWindowSizeInMillis:
   description: "Logs conversation  in target every 5000 milisec, Reactive WindowSizeInSeconds"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 5000
 alcatelCallEventDataMappingDefinition:
@@ -128,7 +128,7 @@ alcatelCallEventDataMappingDefinition:
     \ TargetTypeFile(NonImplemented)"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 alcatelCallEventHistoryBufferSize:
@@ -138,7 +138,7 @@ alcatelCallEventHistoryBufferSize:
   description: "Logs conversation history in log file, Reactive Buffer Size"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 100
 alcatelCallEventHistoryExpiryTimeInSeconds:
@@ -148,7 +148,7 @@ alcatelCallEventHistoryExpiryTimeInSeconds:
   description: "Logs conversation history in log file, Reactive WindowSizeInSeconds"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 600
 alcatelCallEventLoggerMaxBufferSize:
@@ -159,7 +159,7 @@ alcatelCallEventLoggerMaxBufferSize:
     \ Size"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 50
 alcatelCallEventLoggerWindowSizeInMillis:
@@ -169,7 +169,7 @@ alcatelCallEventLoggerWindowSizeInMillis:
   description: "Logs conversation history in target every 3000 milisec, Reactive WindowSizeInSeconds"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3000
 alcatelConfigServerClientName:
@@ -179,7 +179,7 @@ alcatelConfigServerClientName:
   description: "Not Used"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SistasVoice"
 alcatelConfigServerLookupPeriodInMinutes:
@@ -190,7 +190,7 @@ alcatelConfigServerLookupPeriodInMinutes:
     \ 2-Remonitor Devices every alcatelConfigServerLookupPeriodInMinutes"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 30
 alcatelConfigServerPassword:
@@ -200,7 +200,7 @@ alcatelConfigServerPassword:
   description: "TSAPI password OXE Telnet Password"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "pass"
 alcatelConfigServerPrimaryEndpointName:
@@ -210,7 +210,7 @@ alcatelConfigServerPrimaryEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SistasVoice"
 alcatelConfigServerPrimaryHost:
@@ -220,7 +220,7 @@ alcatelConfigServerPrimaryHost:
   description: "TSAPI password PrimaryHost OXE "
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "siskeralu02"
 alcatelConfigServerPrimaryPort:
@@ -230,7 +230,7 @@ alcatelConfigServerPrimaryPort:
   description: "Alcatel-Lucent PrimaryHost OXE Telnet Port"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 23
 alcatelConfigServerStandbyHost:
@@ -240,7 +240,7 @@ alcatelConfigServerStandbyHost:
   description: "Not Applicaple leave blanc"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 alcatelConfigServerStandbyPort:
@@ -250,7 +250,7 @@ alcatelConfigServerStandbyPort:
   description: "Not Applicaple leave blanc"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 23
 alcatelConfigServerStandbyyEndpointName:
@@ -260,7 +260,7 @@ alcatelConfigServerStandbyyEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SistasVoiceStandby"
 alcatelConfigServerUserName:
@@ -270,7 +270,7 @@ alcatelConfigServerUserName:
   description: "Alcatel-Lucent OXE Telnet UserName"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "user"
 alcatelConversationDataMappingDefinition:
@@ -280,7 +280,7 @@ alcatelConversationDataMappingDefinition:
   description: "Not used"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 alcatelCtiExecutionMode:
@@ -290,7 +290,7 @@ alcatelCtiExecutionMode:
   description: "Not used"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "P"
 alcatelTelephonyServerId:
@@ -300,7 +300,7 @@ alcatelTelephonyServerId:
   description: "TSAPI connection string. value is hardcoded, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "ALCATEL#link1#CSTA"
 alcatelTelephonyServerPassword:
@@ -310,7 +310,7 @@ alcatelTelephonyServerPassword:
   description: "TSAPI password, Not used, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "pass"
 alcatelTelephonyServerPrimaryEndpointName:
@@ -320,7 +320,7 @@ alcatelTelephonyServerPrimaryEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SVR"
 alcatelTelephonyServerPrimaryHost:
@@ -330,7 +330,7 @@ alcatelTelephonyServerPrimaryHost:
   description: "Alcatel-Lucent TSAPI Server PrimaryHost"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "siskeralu02"
 alcatelTelephonyServerPrimaryPort:
@@ -340,7 +340,7 @@ alcatelTelephonyServerPrimaryPort:
   description: "Alcatel-Lucent TSAPI Server PrimaryHost Port"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 2555
 alcatelTelephonyServerRtpPassword:
@@ -350,7 +350,7 @@ alcatelTelephonyServerRtpPassword:
   description: "Not used"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 alcatelTelephonyServerStandbyHost:
@@ -360,7 +360,7 @@ alcatelTelephonyServerStandbyHost:
   description: "Alcatel-Lucent TSAPI Server StandbyHost"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 alcatelTelephonyServerStandbyPort:
@@ -370,7 +370,7 @@ alcatelTelephonyServerStandbyPort:
   description: "Alcatel-Lucent TSAPI Server Standby Host Port"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 2555
 alcatelTelephonyServerStandbyyEndpointName:
@@ -380,7 +380,7 @@ alcatelTelephonyServerStandbyyEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SVRStandby"
 alcatelTelephonyServerStatusCheckPeriodInSeconds:
@@ -390,7 +390,7 @@ alcatelTelephonyServerStatusCheckPeriodInSeconds:
   description: "Alcatel-Lucent TSAPI Server Healt Check"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 60
 alcatelTelephonyServerUserName:
@@ -400,20 +400,20 @@ alcatelTelephonyServerUserName:
   description: "TSAPI username, Not used, do not change"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "user"
 callListenHost:
   configValueCount: "SINGLE"
   configValueType: "STRING"
   displayName: "Call Listen Host"
-  description: "CallListenHost, VoiceServer CallListen interface Listen IP, Capturer\
-    \ will send CallStarted/CallEnded message to CallListen Host:port"
+  description: "CallListenHost, VoiceServer Listen IP, Capturer will send CallStarted/CallEnded\
+    \ message to CallListen Host:port"
   sectionName: "CallListening"
   encrypted: false
-  rule: "${callListenHost} matches '^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)(\\.(?!$)|$)){4}$'"
-  restartRequired: true
-  defaultValue: "127.0.0.1"
+  rule: null
+  restartRequired: null
+  defaultValue: null
 callListenPort:
   configValueCount: "SINGLE"
   configValueType: "LONG"
@@ -426,16 +426,16 @@ callListenPort:
   restartRequired: true
   defaultValue: 28008
 callListeningGatewayList:
-  configValueCount: "SINGLE"
+  configValueCount: "LIST"
   configValueType: "STRING"
-  displayName: "Call Listening Gateway List"
+  displayName: "Call Listen Port"
   description: "callListeningGatewayList skip CTI Lookup and Extension Lookup for\
     \ IP List"
   sectionName: "CallListening"
   encrypted: false
   rule: null
-  restartRequired: false
-  defaultValue: ""
+  restartRequired: null
+  defaultValue: null
 callListeningNoCtiPhoneList:
   configValueCount: "SINGLE"
   configValueType: "LONG"
@@ -444,9 +444,9 @@ callListeningNoCtiPhoneList:
     \ Extension List"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
-  defaultValue: null
+  defaultValue: ""
 completedCallProcessDeletePeriodInMinutes:
   configValueCount: "SINGLE"
   configValueType: "LONG"
@@ -455,7 +455,7 @@ completedCallProcessDeletePeriodInMinutes:
     \ the schedule is executed every completedCallProcessDeletePeriodInMinutes/10"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 1440
 configurationPublishingPeriodInSeconds:
@@ -465,7 +465,7 @@ configurationPublishingPeriodInSeconds:
   description: "Configuration Publish period in seconds"
   sectionName: "Diagnose"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 60
 ctiServerHost:
@@ -508,7 +508,7 @@ doNotPassivateDevices:
     \ in Genesys Config or in Alcatel Config. 2- "
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: true
 filePurgeBaseDirectory:
@@ -518,7 +518,7 @@ filePurgeBaseDirectory:
   description: "The Directory that the files are deleted"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 filePurgeExtensions:
@@ -528,7 +528,7 @@ filePurgeExtensions:
   description: "comma',' seperated file extension list "
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "tmp, temp"
 filePurgeFileNameRegex:
@@ -539,7 +539,7 @@ filePurgeFileNameRegex:
     \ ^:$ will always return false"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "^:$"
 filePurgeMaxFileCountPerPoll:
@@ -550,7 +550,7 @@ filePurgeMaxFileCountPerPoll:
     \ apply filters"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 10000
 filePurgePeriodInMinutes:
@@ -561,7 +561,7 @@ filePurgePeriodInMinutes:
     \ Minutes"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 30
 filePurgeResourceMaxAgeInMinutes:
@@ -572,7 +572,7 @@ filePurgeResourceMaxAgeInMinutes:
     \ minutes"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 120
 genesysAgentActivityMonitorReportIntervalInMinutes:
@@ -582,7 +582,7 @@ genesysAgentActivityMonitorReportIntervalInMinutes:
   description: "Not used"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 30
 genesysAgentCallHistoryBufferSize:
@@ -592,7 +592,7 @@ genesysAgentCallHistoryBufferSize:
   description: "AgentContext Log, Call History size in seconds, Not Logged"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60
 genesysAgentCallHistoryWindowSizeInSeconds:
@@ -602,7 +602,7 @@ genesysAgentCallHistoryWindowSizeInSeconds:
   description: "AgentContext Log, Call History size in seconds, Not Logged"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3600
 genesysAgentConversationHistoryBufferSize:
@@ -612,7 +612,7 @@ genesysAgentConversationHistoryBufferSize:
   description: "Logs conversation history in log file, Reactive Buffer Size"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60
 genesysAgentConversationHistoryWindowSizeInSeconds:
@@ -622,7 +622,7 @@ genesysAgentConversationHistoryWindowSizeInSeconds:
   description: "Logs conversation history in log file, Reactive WindowSizeInSeconds"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3600
 genesysCallConversationLoggerMaxBufferSize:
@@ -633,7 +633,7 @@ genesysCallConversationLoggerMaxBufferSize:
     \ Size"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 5
 genesysCallConversationLoggerTarget:
@@ -644,7 +644,7 @@ genesysCallConversationLoggerTarget:
     \ TargetTypeFile(NonImplemented)"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "TargetTypeDB"
 genesysCallConversationLoggerWindowSizeInMillis:
@@ -654,7 +654,7 @@ genesysCallConversationLoggerWindowSizeInMillis:
   description: "Logs conversation  in target every 5000 milisec, Reactive WindowSizeInSeconds"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 5000
 genesysCallEventDataMappingDefinition:
@@ -665,7 +665,7 @@ genesysCallEventDataMappingDefinition:
     \ TargetTypeFile(NonImplemented)"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 genesysCallEventHistoryBufferSize:
@@ -675,7 +675,7 @@ genesysCallEventHistoryBufferSize:
   description: "Logs conversation history in log file, Reactive Buffer Size"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 100
 genesysCallEventHistoryExpiryTimeInSeconds:
@@ -685,7 +685,7 @@ genesysCallEventHistoryExpiryTimeInSeconds:
   description: "Logs conversation history in log file, Reactive WindowSizeInSeconds"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 600
 genesysCallEventLoggerMaxBufferSize:
@@ -696,7 +696,7 @@ genesysCallEventLoggerMaxBufferSize:
     \ Size"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 50
 genesysCallEventLoggerWindowSizeInMillis:
@@ -706,7 +706,7 @@ genesysCallEventLoggerWindowSizeInMillis:
   description: "Logs conversation history in target every 3000 milisec, Reactive WindowSizeInSeconds"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 3000
 genesysConfigServerClientName:
@@ -716,7 +716,7 @@ genesysConfigServerClientName:
   description: "Config Server Client Name "
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SGManager"
 genesysConfigServerLookupPeriodInMinutes:
@@ -727,7 +727,7 @@ genesysConfigServerLookupPeriodInMinutes:
     \ 2-Remonitor Devices every genesysConfigServerLookupPeriodInMinutes"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 30
 genesysConfigServerPassword:
@@ -737,7 +737,7 @@ genesysConfigServerPassword:
   description: "Genesys Config Server Password"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "password"
 genesysConfigServerPrimaryEndpointName:
@@ -747,7 +747,7 @@ genesysConfigServerPrimaryEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SistasVoice"
 genesysConfigServerPrimaryHost:
@@ -757,7 +757,7 @@ genesysConfigServerPrimaryHost:
   description: "Genesys Config Server PrimaryHost"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "192.168.12.180"
 genesysConfigServerPrimaryPort:
@@ -767,7 +767,7 @@ genesysConfigServerPrimaryPort:
   description: "Genesys Config Server PrimaryHost  Port"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 2020
 genesysConfigServerStandbyHost:
@@ -777,7 +777,7 @@ genesysConfigServerStandbyHost:
   description: "Genesys Config Server StandbyHost"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 genesysConfigServerStandbyPort:
@@ -787,7 +787,7 @@ genesysConfigServerStandbyPort:
   description: "Genesys Config Server StandbyHost port"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 2020
 genesysConfigServerStandbyyEndpointName:
@@ -797,7 +797,7 @@ genesysConfigServerStandbyyEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SistasVoiceStandby"
 genesysConfigServerUserName:
@@ -807,7 +807,7 @@ genesysConfigServerUserName:
   description: "Genesys Config Server UserName"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "default"
 genesysConversationDataMappingDefinition:
@@ -817,7 +817,7 @@ genesysConversationDataMappingDefinition:
   description: "Not used"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 genesysCtiExecutionMode:
@@ -827,7 +827,7 @@ genesysCtiExecutionMode:
   description: "Not used"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "P"
 genesysTelephonyServerId:
@@ -837,7 +837,7 @@ genesysTelephonyServerId:
   description: "Not used"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "TServer"
 genesysTelephonyServerPassword:
@@ -847,7 +847,7 @@ genesysTelephonyServerPassword:
   description: "Genesys TServer password, Not used, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 genesysTelephonyServerPrimaryEndpointName:
@@ -857,7 +857,7 @@ genesysTelephonyServerPrimaryEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SVR"
 genesysTelephonyServerPrimaryHost:
@@ -867,7 +867,7 @@ genesysTelephonyServerPrimaryHost:
   description: "Genesys TServer Server PrimaryHost"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "192.168.12.180"
 genesysTelephonyServerPrimaryPort:
@@ -877,7 +877,7 @@ genesysTelephonyServerPrimaryPort:
   description: "Genesys TServer Server PrimaryHost Port"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 3110
 genesysTelephonyServerRtpPassword:
@@ -888,7 +888,7 @@ genesysTelephonyServerRtpPassword:
     \ should be true"
   sectionName: "Genesys"
   encrypted: true
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "sistas_1"
 genesysTelephonyServerStandbyHost:
@@ -898,7 +898,7 @@ genesysTelephonyServerStandbyHost:
   description: "Genesys TServer Server StandbyHost"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 genesysTelephonyServerStandbyPort:
@@ -908,7 +908,7 @@ genesysTelephonyServerStandbyPort:
   description: "Genesys TServer Server Standby Host Port"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 0
 genesysTelephonyServerStandbyyEndpointName:
@@ -918,7 +918,7 @@ genesysTelephonyServerStandbyyEndpointName:
   description: "Reserved for internal use, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SVR"
 genesysTelephonyServerUserName:
@@ -928,7 +928,7 @@ genesysTelephonyServerUserName:
   description: "Genesys TServer username, Not used, do not change"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 heartBeatPeriodInSeconds:
@@ -938,7 +938,7 @@ heartBeatPeriodInSeconds:
   description: "HeartBeat Period of signalR in seconds"
   sectionName: "Diagnose"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 30
 instanceId:
@@ -982,7 +982,7 @@ isAgentEventContextEnabled:
   description: "If true All CTI Agent events are logged in AgentEventContext Table"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isAlcatelBipToneGenerationEnabled:
@@ -992,7 +992,7 @@ isAlcatelBipToneGenerationEnabled:
   description: "Alcatel Lucent BIP tone or Voice Guide is generated on call established"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isAlcatelConfigServerEnabled:
@@ -1002,7 +1002,7 @@ isAlcatelConfigServerEnabled:
   description: "isAlcatelConfigServerEnabled, Telnet Connection to ALE OXE CPU"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isAlcatelCtiHighAvailabilityEnabled:
@@ -1012,7 +1012,7 @@ isAlcatelCtiHighAvailabilityEnabled:
   description: "Is Alcatel Telephony Server CtiHighAvailability Enabled"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isAlcatelForceCTIReregisterOnLookupPeriod:
@@ -1022,7 +1022,7 @@ isAlcatelForceCTIReregisterOnLookupPeriod:
   description: "if true, send register to all devices on alcatelConfigServerLookupPeriodInMinutes"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isAlcatelTelephonyServerEnabled:
@@ -1045,7 +1045,7 @@ isAlcatelTsapiEnabledandStartRecordingDisabled:
     \ should be true"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isCTICheckEnabled:
@@ -1055,7 +1055,7 @@ isCTICheckEnabled:
   description: "Should be true in case of any CTI integration usage"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: true
 isCTIRtpCheckEnabled:
@@ -1067,7 +1067,7 @@ isCTIRtpCheckEnabled:
     \ ? \"true\" : \"false\")"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isCallEventLogEnabled:
@@ -1077,7 +1077,7 @@ isCallEventLogEnabled:
   description: "If true All CTI call events are logged in CallEventLog Table"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isCallListeningEnabled:
@@ -1089,8 +1089,8 @@ isCallListeningEnabled:
   sectionName: "CallListening"
   encrypted: false
   rule: null
-  restartRequired: false
-  defaultValue: false
+  restartRequired: null
+  defaultValue: null
 isFilePurgeEnabled:
   configValueCount: "SINGLE"
   configValueType: "BOOLEAN"
@@ -1098,7 +1098,7 @@ isFilePurgeEnabled:
   description: "Enables File Purge Processes"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isFilePurgePollSubDirectories:
@@ -1108,7 +1108,7 @@ isFilePurgePollSubDirectories:
   description: "Purge files in sub directories specified by filePurgeBaseDirectory"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isGenesysConfigServerEnabled:
@@ -1118,7 +1118,7 @@ isGenesysConfigServerEnabled:
   description: "isGenesysConfigServerEnabled, Enable Genesys Config Server sync"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isGenesysCtiHighAvailabilityEnabled:
@@ -1140,7 +1140,7 @@ isGenesysForceCTIReregisterOnLookupPeriod:
     \ value false to true changes trigger reregister."
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isGenesysLoggingEnabled:
@@ -1150,7 +1150,7 @@ isGenesysLoggingEnabled:
   description: "Enables genesys library logging"
   sectionName: "Genesys"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isGenesysTelephonyServerEnabled:
@@ -1172,7 +1172,7 @@ isMessageEndLineDelimeted:
     \ to internal usage, do not change"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isResourceListeningEnabled:
@@ -1183,7 +1183,7 @@ isResourceListeningEnabled:
     \ anymore. If voiceAgent uses 'stream' upload config"
   sectionName: "ResourceListen"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isRestartProcessManagement:
@@ -1195,7 +1195,7 @@ isRestartProcessManagement:
     \ of those processes is stucked."
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isScreenRecordingEnabled:
@@ -1208,7 +1208,7 @@ isScreenRecordingEnabled:
     \ is different then callEventContext.provider'"
   sectionName: "Screen Recording"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isSistasConfigurationServerConfigUploadEnabled:
@@ -1220,7 +1220,7 @@ isSistasConfigurationServerConfigUploadEnabled:
     \ uploaded"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: true
 isSistasConfigurationServerConfigUploadOnStartEnabled:
@@ -1231,7 +1231,7 @@ isSistasConfigurationServerConfigUploadOnStartEnabled:
     \ remote configuration will override local config"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: true
 isSistasConfigurationServerDownloadEnabled:
@@ -1241,7 +1241,7 @@ isSistasConfigurationServerDownloadEnabled:
   description: "if true Download Config from config server enabled"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: true
 isSistasConfigurationServerEnabled:
@@ -1251,7 +1251,7 @@ isSistasConfigurationServerEnabled:
   description: "Is Sistas Configuration Server Enabled"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isSistasConfigurationServerTemplateUploadEnabled:
@@ -1261,7 +1261,7 @@ isSistasConfigurationServerTemplateUploadEnabled:
   description: "upload Template to Configuration Server on Startup"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: true
 isStatisticEnabled:
@@ -1271,7 +1271,7 @@ isStatisticEnabled:
   description: "Enable statistic collection"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: false
 isSynchAgentStateEnabled:
@@ -1281,7 +1281,7 @@ isSynchAgentStateEnabled:
   description: "Agents and devices are added, updated, deleted with CTI data, "
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 isWebServerEnabled:
@@ -1291,7 +1291,7 @@ isWebServerEnabled:
   description: "Enables internal WebServer "
   sectionName: "Web"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: true
 managedCapturerClusterId:
@@ -1360,7 +1360,7 @@ managerSlaveURI:
   description: "VoiceBatch URL"
   sectionName: "Slave"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: ""
 maxAllowedCallTimeDifferenceInSeconds:
@@ -1372,7 +1372,7 @@ maxAllowedCallTimeDifferenceInSeconds:
     \ processing, this option affect TimeDiff health metric data"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 99999999
 maxAllowedCtiOfflineLookupTimeDeltaInSeconds:
@@ -1384,7 +1384,7 @@ maxAllowedCtiOfflineLookupTimeDeltaInSeconds:
     \ data then try to match from DB"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 2
 maxCallCountInConversation:
@@ -1395,7 +1395,7 @@ maxCallCountInConversation:
     \ call in a conversation"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 20
 maxConversationDurationInMinutes:
@@ -1406,7 +1406,7 @@ maxConversationDurationInMinutes:
     \ exided"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 360
 maxExecutionActorCount:
@@ -1416,7 +1416,7 @@ maxExecutionActorCount:
   description: "Deprecated, Not used anymore, you can remain default value"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 10
 maxExecutionQueueSizePerActor:
@@ -1426,7 +1426,7 @@ maxExecutionQueueSizePerActor:
   description: "Deprecated, Not used anymore, you can remain default value"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 25
 maxExecutionThreadCountPerActor:
@@ -1436,7 +1436,7 @@ maxExecutionThreadCountPerActor:
   description: "Deprecated, Not used anymore, you can remain default value"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 40
 maxProcessQueueSize:
@@ -1446,7 +1446,7 @@ maxProcessQueueSize:
   description: "Deprecated, Not used anymore, you can remain default value"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 1000
 maxProcessThreadCount:
@@ -1456,7 +1456,7 @@ maxProcessThreadCount:
   description: "Deprecated, Not used anymore, you can remain default value"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 100
 maxRestCallDurationInMinutes:
@@ -1468,7 +1468,7 @@ maxRestCallDurationInMinutes:
     \ sending EventReleased after maxRestCallDurationInMinutes minutes"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60
 mediaAttachmentTarget:
@@ -1479,7 +1479,7 @@ mediaAttachmentTarget:
     \ Start Record will be send only with specified provider events"
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: "alcatel"
 metricsPublishingPeriodInSeconds:
@@ -1489,7 +1489,7 @@ metricsPublishingPeriodInSeconds:
   description: "Publish metric every metricsPublishingPeriodInSeconds Minutes"
   sectionName: "Diagnose"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 60
 minRemoveExpiredCallPartyContextInHours:
@@ -1500,7 +1500,7 @@ minRemoveExpiredCallPartyContextInHours:
     \ hours. "
   sectionName: "CTI"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 24
 oAuth2ClientSecret:
@@ -1510,7 +1510,7 @@ oAuth2ClientSecret:
   description: "oAuth2ClientSecret"
   sectionName: "Sistas Configuration Server"
   encrypted: true
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 oAuth2GrantType:
@@ -1520,7 +1520,7 @@ oAuth2GrantType:
   description: "oAuth2GrantType"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "client_credentials"
 oAuth2Password:
@@ -1530,7 +1530,7 @@ oAuth2Password:
   description: "oAuth2Password, no need if grant type is client_credentials"
   sectionName: "Sistas Configuration Server"
   encrypted: true
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 oAuth2TokenPath:
@@ -1540,7 +1540,7 @@ oAuth2TokenPath:
   description: "oAuth2TokenPath"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "auth/realms/sistas/protocol/openid-connect/token"
 oAuth2Url:
@@ -1550,7 +1550,7 @@ oAuth2Url:
   description: "oAuth2 Authorisation Server (Keycloak) Url"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "http://sistas-keycloak.centralus.azurecontainer.io:8080"
 oAuth2UserName:
@@ -1560,7 +1560,7 @@ oAuth2UserName:
   description: "oAuth2UserName, no need if grant type is client_credentials"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 preferCapturerCallIdForCtiLookup:
@@ -1571,7 +1571,7 @@ preferCapturerCallIdForCtiLookup:
     \ lookup is made with Fromid/Toid captured bu capturer"
   sectionName: "CallListening"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: false
 prometheusHostname:
@@ -1605,7 +1605,7 @@ recordingUserDataFilter:
     \ configuration parameter to see with AttachedData is mapped with UserDataX"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 resourceListenBaseUri:
@@ -1615,7 +1615,7 @@ resourceListenBaseUri:
   description: "ResourceListen Base Url. Reserved to internal useage, do not change"
   sectionName: "ResourceListen"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: "/SisBackupServer/BackupService/"
 resourceListenHost:
@@ -1646,7 +1646,7 @@ restAccessToken:
     \ header"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "GENERATE_RANDOM_VALUE"
 screenRecordingUserDataFilter:
@@ -1659,7 +1659,7 @@ screenRecordingUserDataFilter:
     \ is not valid'. Example: userData1.Contains(&quot;record-1&quot;) OR userData2.Contains(&quot;record-2&quot;)"
   sectionName: "Screen Recording"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 serviceRegisterRequestArgumentType:
@@ -1670,7 +1670,7 @@ serviceRegisterRequestArgumentType:
     \ 11 or 234"
   sectionName: "Alcatel-Lucent"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 11
 sistasConfigurationServerConfigPath:
@@ -1680,7 +1680,7 @@ sistasConfigurationServerConfigPath:
   description: "Config API Path, Reserved"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "/api/config"
 sistasConfigurationServerConfigServerPath:
@@ -1691,7 +1691,7 @@ sistasConfigurationServerConfigServerPath:
     \ Config Server"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: ""
 sistasConfigurationServerDefaultBranch:
@@ -1701,7 +1701,7 @@ sistasConfigurationServerDefaultBranch:
   description: "Git Default branch"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "master"
 sistasConfigurationServerDownloadPeriodInMinutes:
@@ -1712,7 +1712,7 @@ sistasConfigurationServerDownloadPeriodInMinutes:
     \ Minutes"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: 30
 sistasConfigurationServerProfile:
@@ -1722,7 +1722,7 @@ sistasConfigurationServerProfile:
   description: "you can differentiete different environment/Installation "
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "SVR"
 sistasConfigurationServerTemplatePath:
@@ -1732,7 +1732,7 @@ sistasConfigurationServerTemplatePath:
   description: "Template API Path, Reserved"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "api/template"
 sistasConfigurationServerUrl:
@@ -1742,7 +1742,7 @@ sistasConfigurationServerUrl:
   description: "Config Server URL"
   sectionName: "Sistas Configuration Server"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: "http://localhost:8888"
 statisticPeriod:
@@ -1752,7 +1752,7 @@ statisticPeriod:
   description: "Collect stats every statisticPeriod miliseconds"
   sectionName: "File Purge"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: false
   defaultValue: 60000
 voiceAdminBaseUri:
@@ -1762,7 +1762,7 @@ voiceAdminBaseUri:
   description: "voice Admin Base Url. Reserved to internal useage, do not change"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: "/"
 voiceAdminHost:
@@ -1792,7 +1792,7 @@ webServerBaseUri:
   description: "voice Admin Base Url. Reserved to internal useage, do not change"
   sectionName: "General"
   encrypted: false
-  rule: null
+  rule: ""
   restartRequired: true
   defaultValue: "/voiceserver/"
 webServerHost:
