@@ -1,3 +1,4 @@
+Server140-generateMonitorExtensionRange: true
 alcatelAgentActivityMonitorReportIntervalInMinutes: 29
 alcatelBipToneGenerationPresenceTimer: 50
 alcatelBipToneGenerationSilenceTimer: 0
