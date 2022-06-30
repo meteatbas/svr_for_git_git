@@ -1,4 +1,3 @@
-Server140-generateMonitorExtensionRange: true
 alcatelAgentActivityMonitorReportIntervalInMinutes: 29
 alcatelBipToneGenerationPresenceTimer: 50
 alcatelBipToneGenerationSilenceTimer: 0
@@ -126,10 +125,10 @@ genesysTelephonyServerStandbyHost: "192.168.2.180"
 genesysTelephonyServerStandbyPort: 3103
 instanceId: "Server001"
 isActiveRecordingEnabled: true
-isAlcatelBipToneGenerationEnabled: true
-isAlcatelConfigServerEnabled: false
-isAlcatelCtiHighAvailabilityEnabled: false
-isAlcatelTelephonyServerEnabled: true
+isAlcatelBipToneGenerationEnabled: false
+isAlcatelConfigServerEnabled: true
+isAlcatelCtiHighAvailabilityEnabled: true
+isAlcatelTelephonyServerEnabled: false
 isAlcatelTsapiEnabledandStartRecordingDisabled: false
 isAllInOneConfiguration: false
 isCTICheckEnabled: true
@@ -245,8 +244,8 @@ recordingUserDataFilter: "!userData1.Contains(\"VRENABLED\")"
 resourceListenBaseUri: "/SisBackupServer/BackupService/"
 resourceListenHost: "127.0.0.1"
 resourceListenPort: 28002
-restAccessToken: "11111115111"
-serviceRegisterRequestArgumentType: 151
+restAccessToken: "111111155111"
+serviceRegisterRequestArgumentType: 1541
 sistasConfigurationServerDownloadPeriodInMinutes: 4
 statisticPeriod: 900003
 voiceAdminHost: "127.0.0.1"
