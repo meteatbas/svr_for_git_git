@@ -152,7 +152,7 @@ isScreenRecordingEnabled: true
 isSistasConfigurationServerConfigUploadOnStartEnabled: true
 isSistasConfigurationServerEnabled: true
 isSkipCacheEnabled: false
-managedCapturerClusterId: "Cluster001"
+managedCapturerClusterId: "Cluster5001"
 maxCacheExecutionActorCount: 3
 maxCacheExecutionThreadCountPerActor: 1
 maxCallCountInConversation: 9
@@ -245,8 +245,8 @@ recordingUserDataFilter: "!userData1.Contains(\"VRENABLED\")"
 resourceListenBaseUri: "/SisBackupServer/BackupService/"
 resourceListenHost: "127.0.0.1"
 resourceListenPort: 28002
-restAccessToken: "1111111111"
-serviceRegisterRequestArgumentType: 11
+restAccessToken: "11111115111"
+serviceRegisterRequestArgumentType: 151
 sistasConfigurationServerDownloadPeriodInMinutes: 4
 statisticPeriod: 900003
 voiceAdminHost: "127.0.0.1"
